@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.svg"
+    />
+    <title>Move box-layout</title>
+    <meta name="description" content="This is my first website!" />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 100vh;
+        margin: 50px;
+      }
+      div {
+        height: 300px;
+        width: 300px;
+        position: relative;
+      }
+      div > span {
+        padding: 2px;
+        border-radius: 10px;
+      }
+      p span {
+        color: green;
+      }
+      p + span {
+        text-decoration: underline;
+      }
+      p ~ span {
+        background-color: cornflowerblue;
+      }
+      input:required {
+        border: 1px solid tomato;
+      }
+      input[placeholder~="name"] {
+        background-color: aliceblue;
+      }
+      input[placeholder="password"] {
+        background-color: rgb(71, 126, 173);
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <span>HEllO</span>
+      <p>
+        안녕하세요 나는 이것저것 하고 싶어 프론트를 배우는 것도 나름 즐거워<span
+          >insider</span
+        >
+      </p>
+      <span>HEllO</span>
+      <span>HEllO</span>
+      <span>HEllO</span>
+    </div>
+    <div>
+      <form>
+        <input type="password" required placeholder="password" />
+        <input type="text" placeholder="name" />
+        <input type="text" placeholder="first name" />
+      </form>
+    </div>
+  </body>
+</html>

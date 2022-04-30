@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link
+      rel="shortcut icon"
+      sizes="16x16 32x32 64x64"
+      href="https://nomadcoders.co/m.svg"
+    />
+    <title>Move box-layout</title>
+    <meta name="description" content="This is my first website!" />
+    <meta charset="utf-8" />
+    <style>
+      body {
+        height: 100vh;
+        margin: 50px;
+      }
+      div {
+        height: 150px;
+        width: 150px;
+        background-color: teal;
+        position: relative;
+      }
+      div:first-child {
+        background-color: black;
+      }
+      div:last-child {
+        background-color: yellow;
+      }
+      div:nth-child(3n) {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+  </body>
+</html>

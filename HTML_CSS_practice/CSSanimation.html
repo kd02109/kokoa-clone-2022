@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <title>The Son Time</title>
+    <style>
+      @keyframes flip {
+        0% {
+          transform: rotateX(0deg);
+        }
+        50% {
+          transform: rotateX(180deg) translateX(100px);
+        }
+        100% {
+          transform: translateX(0px) rotateX(360deg);
+        }
+      }
+      img {
+        border: 5px solid black;
+        border-radius: 50%;
+        animation: flip 2s ease-in-out;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="https://upload.wikimedia.org/wikipedia/ko/thumb/8/8e/%EB%A6%AC%EA%B7%B8_%EC%98%A4%EB%B8%8C_%EB%A0%88%EC%A0%84%EB%93%9C_%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4_%EC%BD%94%EB%A6%AC%EC%95%84%EC%9D%98_%EB%A1%9C%EA%B3%A0.jpg/450px-%EB%A6%AC%EA%B7%B8_%EC%98%A4%EB%B8%8C_%EB%A0%88%EC%A0%84%EB%93%9C_%EC%B1%94%ED%94%BC%EC%96%B8%EC%8A%A4_%EC%BD%94%EB%A6%AC%EC%95%84%EC%9D%98_%EB%A1%9C%EA%B3%A0.jpg"
+    />
+  </body>
+</html>
