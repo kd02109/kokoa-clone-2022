@@ -19,22 +19,17 @@
     position: relative;
 }
 .nav__notification{
-    background-color: tomato;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 600;
     position:absolute;
     right: -9px;
     top:-10px;
 }
 .nav__dot{
-    width: 6px;
+    background-color: tomato;
+    display: flex;
     height: 6px;
+    width: 6px;
     border-radius: 3px;
-    top: -7px;
+    top: -5px;
+    right: -5px;
+    position:absolute;
 }
